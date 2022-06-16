@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Charis+SIL&family=Contrail+One&family=Press+Start+2P&display=swap");
+
+.html {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vh;
+  font-family: "Contrail One";
+  background: #f3b91a;
+}
+
+.body {
+  background-color: #c09316;
+  overflow-x: hidden; /* Hide scrollbars */
+  margin: 0;
+  width: 100vh;
+  height: 100vh;
+}
+
+.main-head {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  background-color: #f3b91a;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px;
+  font-family: "Contrail One";
+}
+
+.logo,
+.button-icon img {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 100%;
+  max-width: 100px;
+  max-height: 100px;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.ref {
+  margin: 4% 5%;
+  gap: 10px;
+  font-size: small;
+  display: flex;
+  flex-wrap: row;
+  list-style-type: none;
+}
+
+.ref a {
+  margin: 0;
+  color: #201e1f;
+  text-decoration: none;
+}
+
+.page,
+.experience-content,
+.about.me-content,
+.work-section {
+  padding: 20% 10%;
+  display: flex;
+  flex-direction: column;
+  background-color: #052141;
+  font-family: "Contrail One";
+  color: antiquewhite;
+  text-shadow: 2px 2px black;
+}
+
+.me {
+  font-family: "Contrail One";
+  padding: 15% 0px 0px 0px;
+}
+
+.title-about.me {
+  background-color: #052141;
+  display: inline-block;
+  justify-content: space-around;
+}
+
+.title.work {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-container {
+  display: flex;
+  flex-wrap: column wrap;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-container > div {
+  text-align: center;
+  padding: 20px 0;
+  margin: 5px;
+}
+
+.img-container img {
+  width: 15vh;
+  height: 15vh;
+}
+
+.main-footer {
+  background-color: #052141;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-p h2 {
+  font-family: "Contrail One";
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social ul {
+  padding: 10% 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.social img {
+  min-height: 50px;
+  min-width: 50px;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .me {
+    font-size: large;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: xx-large;
+  }
+
+  .page {
+    padding: 5% 5%;
+  }
+
+  .page h2 {
+    font-size: 4rem;
+  }
+
+  .about.me-content {
+    padding: 10% 5%;
+  }
+
+  .experience-content {
+    padding: 10% 5%;
+  }
+
+  .work-section {
+    padding: 10% 5%;
+  }
+
+  .social-p h2 {
+    margin: 0;
+  }
+
+  .social ul {
+    margin: 0;
+    padding: 3%;
+  }
+}
